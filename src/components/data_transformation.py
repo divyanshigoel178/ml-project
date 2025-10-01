@@ -98,7 +98,9 @@ class DataTransformation:
             )
         except Exception as e:
             raise CustomException(e, sys)
-            logging.info('Exception occurred')
+            logging.info('Exception occurred')  
         
+
+    
        
 
